@@ -1,4 +1,4 @@
-FROM ubuntu.cn:14.04
+FROM ubuntu
 
 MAINTAINER zonghezhineng "zhubo@meicai.cn"
 RUN DEBIAN_FRONTEND="noninteractive"
