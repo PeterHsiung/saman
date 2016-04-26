@@ -8,7 +8,5 @@ RUN apt-get install -y supervisor
 RUN apt-get install -y openssh-server 
 RUN apt-get install -y lsof 
 
-ADD supervisord.conf /etc/supervisor/supervisord.conf
-
 
 CMD ["supervisord", "-c", "/etc/supervisor/supervisord.conf"]
